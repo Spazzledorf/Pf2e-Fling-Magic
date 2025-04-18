@@ -1,0 +1,42 @@
+{
+  "id": "pf2e-fling-magic",
+  "title": "Pf2e Fling Magic",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "Automation Simplifier for Thaumaturge Fling Magic ability.",
+  "authors": [
+    {
+      "name": "Spazzledorf",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "fling-magic",
+      "label": "Fling Magic Explainer",
+      "path": "packs/fling-magic",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "fling-magic-spells",
+      "label": "Fling Magic Spells",
+      "path": "packs/fling-magic-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
+}
